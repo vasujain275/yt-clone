@@ -1,4 +1,5 @@
 import { AppBar } from "@/components/AppBar";
+import { SessionProvider } from "next-auth/react";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
