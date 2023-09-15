@@ -21,7 +21,7 @@ export const VideoCard = (props: VideoCardProps) => {
           <div>{props.title}</div>
           <div className=" text-gray-400 text-base">{props.author}</div>
           <div className=" text-gray-400 text-base">
-            {props.views} | {props.date}
+            {props.views} • {props.date}
           </div>
         </div>
       </div>
