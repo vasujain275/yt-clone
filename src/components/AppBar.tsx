@@ -1,5 +1,7 @@
 import { SearchBar } from "./SearchBar";
 import Image from "next/image";
+import { signIn, signOut } from "next-auth/react";
+import { LoginButton } from "./buttons.component";
 
 export const AppBar = () => {
   return (
@@ -24,6 +26,7 @@ export const AppBar = () => {
           />
         </svg>
       </div>
+      <LoginButton />
     </div>
   );
 };
