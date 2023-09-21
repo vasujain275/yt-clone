@@ -13,6 +13,7 @@ This repository contains a simplified clone of the YouTube homepage using Next.j
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [NextAuth.js](https://next-auth.js.org/) with Google authentication
 
 ## Getting Started
 
